@@ -39,7 +39,7 @@ For now API is used `.env` files. There is 3 different environments:
 1. `development.env` -> for local development
 2. `test.env` -> for test server (amazon, docker, digitalocean etc.)
 3. `production.env` -> for **production** deploy.
-
+> `.env` files is stored in `./apps/server/environments` folder.
 Also, there is  `@environemnt` library that exports `Environments` enum that contain all there 3 envs. Please use it as well.
 
 ## API debug
