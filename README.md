@@ -13,6 +13,15 @@ Libraries used in this workspace:
     and data validator for JavaScript
  - [TypeORM](https://typeorm.io/#/) -> ORM for API
  
+ 
+# Setup Solara Workspace
+Download application 
+
+1. Run `npm install` to install dependencies.
+
+2. Run `npm run client` to run web for "client" version.
+3. Run `npm run server` to run application api.
+ 
 ## 🔎  **Important for developing!!!**
 
 Workspace has shared data. It saved in `libs` folder.
@@ -28,13 +37,12 @@ front-end and back-end.
    
 ## All data that can be used in 2 front-end apps, in front-end and back-end (such an interface, or some enum, or global styles) should be stored in `libs`!
 
-# Setup Solara Workspace
-Download application 
+## **Util** library.
+There is a library `util` that contain all util functions, such as Math (add, mul, toNumber), transform "toNumber", etc
 
-1. Run `npm install` to install dependencies.
+> **If you will have some util features PLEASE save it in `util` library!**   
 
-2. Run `npm run client` to run web for "client" version.
-3. Run `npm run server` to run application api.
+
 
 ## API environmet
 For now API is used `.env` files. There is 3 different environments:
@@ -94,10 +102,7 @@ Run `nx g @nrwl/workspace:lib my-lib2` to generate library.
 
 Libraries are shareable across libraries and applications. They can be imported from `@solara-workspace/mylib`.
 
-## `Util` library.
-There is a library `util` that contain all util functions, such as Math (add, mul, toNumber), transform "toNumber", etc
 
-> **If you will have some util features PLEASE save it in `util` library!**   
 
 ## Code scaffolding
 
