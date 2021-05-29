@@ -1,4 +1,3 @@
-
 # SolaraWorkspace
 
 This project was generated using [Nx](https://nx.dev).
@@ -22,6 +21,8 @@ Folder includes all shared data (styles, ui-elements, interfaces, model) that ca
 front-end and back-end.
 
 > **Also, there is `slr-ui` folder that includes main styles (ui elements) for project**
+
+
 > If project will need to use [Angular material](https://material.angular.io/), `theming` or `custom-theme`
   should be defined in `slr-ui` library!
    
