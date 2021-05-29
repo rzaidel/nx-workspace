@@ -5,10 +5,16 @@
 This project was generated using [Nx](https://nx.dev).
 Worksapce is built with next technologies: 
 
-- [Angular](https://angular.io)
-- [NestJS](https://nestjs.com)
-- [Bootstrap](https://getbootstrap.com/)
+- [Angular v12.0](https://angular.io)
+- [NestJS v7.0](https://nestjs.com)
+- [Bootstrap v5.0.1](https://getbootstrap.com/)
 
+Libraries used in this workspace:
+ - [socket.io-client](https://www.npmjs.com/package/socket.io-client) -> socket client
+ - [joi](https://joi.dev/) -> The most powerful schema description language
+    and data validator for JavaScript
+ - [TypeORM](https://typeorm.io/#/) -> ORM for API
+ 
 ## 🔎  Important for developing!!!
 
 Workspace has shared data. It saved in `libs` folder.
