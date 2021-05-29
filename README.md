@@ -1,9 +1,8 @@
 
-
 # SolaraWorkspace
 
 This project was generated using [Nx](https://nx.dev).
-Worksapce is built with next technologies: 
+Workspace is built with next technologies: 
 
 - [Angular v12.0](https://angular.io)
 - [NestJS v7.0](https://nestjs.com)
@@ -19,7 +18,7 @@ Libraries used in this workspace:
 
 Workspace has shared data. It saved in `libs` folder.
 
-Folder includes all shared data (styles, ui-elements, intefaces, model) that can be shared beetwen
+Folder includes all shared data (styles, ui-elements, interfaces, model) that can be shared between 
 front-end and back-end.
  - Also, there is `slr-ui` folder that includes main styles (ui elements) for project
  - If project will need to use [Angular material](https://material.angular.io/), `theming` or `custom-theme`
@@ -47,7 +46,7 @@ Also, there is  `@environemnt` library that exports `Environments` enum that con
 API is built with NestJS framework which is build on TypeScript.
 So if you are using WebStorm you should to add new debug configuration.
 
-You need to fill `node parameters` field as in screenshot:
+You need to fill `node parameters` field as in a screenshot:
 - `./node_modules/@nrwl/cli/bin/nx serve` -> use it as in screenshot
 - `server` in " ./node_modules/@nrwl/cli/bin/nx serve server" is a name of your API in this workspace
 
@@ -60,7 +59,7 @@ You need to fill `node parameters` field as in screenshot:
 Run `ng build client` to build the "client" project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ## Add new `npm` pacakge
-To add new package to project (worksapce) use next:
+To add new package to project (workspace) use next:
 - `npm install <package-name>`
 After it u can use package in every nested project/
 If package support front-end and back-end u can use in both, if only front-end (ui-element) there is no reason to use it in back-end.
