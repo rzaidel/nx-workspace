@@ -33,6 +33,10 @@ Download application
 API is built with NestJS framework which is build on TypeScript.
 So if you are using WebStorm you should to add new debug configuration.
 
+You need to fill `node parameters` field as in screenshot:
+- `./node_modules/@nrwl/cli/bin/nx serve` -> use it as in screenshot
+- `server` in " ./node_modules/@nrwl/cli/bin/nx serve server" is a name of your API in this workspace
+
 ![plot](./common/ws-api-debug-config.png)
 
 ## Build project
