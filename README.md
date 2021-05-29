@@ -38,7 +38,7 @@ front-end and back-end.
 ## All data that can be used in 2 front-end apps, in front-end and back-end (such an interface, or some enum, or global styles) should be stored in `libs`!
 
 ## **Util** library.
-There is a library `util` that contain all util functions, such as Math (add, mul, toNumber), transform "toNumber", etc
+There is a library `@util` that contain all util functions, such as Math (add, mul, toNumber), transform "toNumber", etc
 
 > **If you will have some util features PLEASE save it in `util` library!**   
 
@@ -63,7 +63,10 @@ You need to fill `node parameters` field as in a screenshot:
 ![plot](./common/ws-api-debug-config.png)
 > *do ot delete image from './common'
 
+## NestJS schematics generators: 
 
+- `nx g @nrwl/nest:service --project=server --name=<name>`
+> it can be `controller`, `middleware`, `module`, `guard`, `pipe`,...
 ## Build project
 
 Run `ng build client` to build the "client" project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.

@@ -6,9 +6,9 @@ const _add = (a = 0, b = 0) => a + b;
 const _sub = (a = 0, b = 0) => a - b;
 const _mul = (a = 0, b = 0) => a * b;
 const _dvd = (a = 0, b = 0) => a / b;
-const toNumber = (v: string) => isNaN(Number(v)) ? 0 : Number(v);
-const toBigger = (v = 0) => Math.ceil(v);
-const toSmaller = (v = 0) => Math.floor(v);
+const toNumber = (value: string) => isNaN(Number(value)) ? 0 : Number(value);
+const toBigger = (value = 0) => Math.ceil(value);
+const toSmaller = (value = 0) => Math.floor(value);
 
 const add = checkOnNumberDecorator(_add);
 const sub = checkOnNumberDecorator(_sub);
