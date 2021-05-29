@@ -14,7 +14,7 @@ Libraries used in this workspace:
     and data validator for JavaScript
  - [TypeORM](https://typeorm.io/#/) -> ORM for API
  
-## 🔎  Important for developing!!!
+## 🔎  **Important for developing!!!**
 
 Workspace has shared data. It saved in `libs` folder.
 
