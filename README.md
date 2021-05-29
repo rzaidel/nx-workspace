@@ -3,7 +3,19 @@
 # SolaraWorkspace
 
 This project was generated using [Nx](https://nx.dev).
+Worksapce is built with next technologies: 
 
+- [Angular](https://angular.io)
+- [Nest](https://nestjs.com)
+- [Bootstrap](https://getbootstrap.com/)
+
+Workspace has shared data. It saved in `libs` folder.
+Folder includes all shared data (styles, ui-elements, intefaces, model) that can be shared beetwen
+front-end and back-end.
+ - Also there is `slr-ui` folder that includes main styles (ui elements) for project
+ - If project will need to use [Angular material](https://material.angular.io/), `theming` or `custom-theme`
+ should be defined in `slr-ui` library!
+   
 # Setup Solara Workspace
 Download application 
 
