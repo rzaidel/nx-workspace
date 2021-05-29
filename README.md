@@ -29,6 +29,14 @@ Download application
 2. Run `npm run client` to run web for "client" version.
 3. Run `npm run server` to run application api.
 
+## API environmet
+For now API is used `.env` files. There is 3 different environments:
+1. `development.env` -> for local development
+2. `test.env` -> for test server (amazon, docker, digitalocean etc.)
+3. `production.env` -> for **production** deploy.
+
+Also, there is  `@environemnt` library that exports `Environments` enum that contain all there 3 envs. Please use it as well.
+
 ## API debug
 API is built with NestJS framework which is build on TypeScript.
 So if you are using WebStorm you should to add new debug configuration.
@@ -38,6 +46,8 @@ You need to fill `node parameters` field as in screenshot:
 - `server` in " ./node_modules/@nrwl/cli/bin/nx serve server" is a name of your API in this workspace
 
 ![plot](./common/ws-api-debug-config.png)
+> *do ot delete image from './common'
+
 
 ## Build project
 
