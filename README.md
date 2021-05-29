@@ -1,5 +1,4 @@
 
-
 # SolaraWorkspace
 
 This project was generated using [Nx](https://nx.dev).
@@ -9,7 +8,7 @@ Worksapce is built with next technologies:
 - [NestJS](https://nestjs.com)
 - [Bootstrap](https://getbootstrap.com/)
 
-## 🔎  Important for developing!!!
+## 🔎  **Important for developing!!!**
 
 Workspace has shared data. It saved in `libs` folder.
 
