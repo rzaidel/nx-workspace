@@ -87,11 +87,17 @@ Run `ng g @nrwl/angular:app admin` to generate an application.
 
 ## Generate a shared data library
 
-Run `ng g @nrwl/angular:lib my-lib` to generate a library.
-
+Run `ng g @nrwl/angular:lib my-lib` to generate an Angular library.
+Run `nx g @nrwl/workspace:lib my-lib2` to generate library.
+ 
 > You can also use any of the plugins above to generate libraries as well.
 
 Libraries are shareable across libraries and applications. They can be imported from `@solara-workspace/mylib`.
+
+## `Util` library.
+There is a library `util` that contain all util functions, such as Math (add, mul, toNumber), transform "toNumber", etc
+
+> **If you will have some util features PLEASE save it in `util` library!**   
 
 ## Code scaffolding
 

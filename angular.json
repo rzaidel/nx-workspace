@@ -51,7 +51,7 @@
             "styles": ["apps/client/src/styles.scss"],
             "scripts": [],
             "stylePreprocessorOptions": {
-              "includePaths": [ "libs/slr-ui/src/lib/styles" ]
+              "includePaths": ["libs/slr-ui/src/lib/styles"]
             },
             "extractCss": true
           },
@@ -246,6 +246,27 @@
               "libs/slr-ui/src/**/*.ts",
               "libs/slr-ui/src/**/*.html"
             ]
+          }
+        }
+      }
+    },
+    "util": {
+      "root": "libs/util",
+      "sourceRoot": "libs/util/src",
+      "projectType": "library",
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/util/**/*.ts"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/util"],
+          "options": {
+            "jestConfig": "libs/util/jest.config.js",
+            "passWithNoTests": true
           }
         }
       }

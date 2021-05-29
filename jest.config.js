@@ -4,5 +4,6 @@ module.exports = {
     '<rootDir>/apps/server',
     '<rootDir>/libs/environments',
     '<rootDir>/libs/slr-ui',
+    '<rootDir>/libs/util',
   ],
 };
