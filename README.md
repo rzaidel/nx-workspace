@@ -19,8 +19,7 @@ front-end and back-end.
  - If project will need to use [Angular material](https://material.angular.io/), `theming` or `custom-theme`
  should be defined in `slr-ui` library!
    
-## All data that can be used in 2 front-end apps, in front-end and back-end (such an interface, or some enum, or global styles)
-## should be stored in `libs`!
+## All data that can be used in 2 front-end apps, in front-end and back-end (such an interface, or some enum, or global styles) should be stored in `libs`!
 
 # Setup Solara Workspace
 Download application 
@@ -30,10 +29,21 @@ Download application
 2. Run `npm run client` to run web for "client" version.
 3. Run `npm run server` to run application api.
 
+## API debug
+API is built with NestJS framework which is build on TypeScript.
+So if you are using WebStorm you should to add new debug configuration.
+
+![plot](./common/ws-api-debug-config.png)
+
 ## Build project
 
 Run `ng build client` to build the "client" project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
+## Add new `npm` pacakge
+To add new package to project (worksapce) use next:
+- `npm install <package-name>`
+After it u can use package in every nested project/
+If package support front-end and back-end u can use in both, if only front-end (ui-element) there is no reason to use it in back-end.
 
 ## Quick Start & Documentation for Nx(@nrwl) Workspace
 
