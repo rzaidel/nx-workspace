@@ -6,46 +6,42 @@ This project was generated using [Nx](https://nx.dev).
 Worksapce is built with next technologies: 
 
 - [Angular](https://angular.io)
-- [Nest](https://nestjs.com)
+- [NestJS](https://nestjs.com)
 - [Bootstrap](https://getbootstrap.com/)
 
+## 🔎  Important for developing!!!
+
 Workspace has shared data. It saved in `libs` folder.
+
 Folder includes all shared data (styles, ui-elements, intefaces, model) that can be shared beetwen
 front-end and back-end.
- - Also there is `slr-ui` folder that includes main styles (ui elements) for project
+ - Also, there is `slr-ui` folder that includes main styles (ui elements) for project
  - If project will need to use [Angular material](https://material.angular.io/), `theming` or `custom-theme`
  should be defined in `slr-ui` library!
    
+## All data that can be used in 2 front-end apps, in front-end and back-end (such an interface, or some enum, or global styles)
+## should be stored in `libs`!
+
 # Setup Solara Workspace
 Download application 
 
-Run `npm install` to install dependencies.
+1. Run `npm install` to install dependencies.
 
-Run `npm run client` to run web for "client" version.
-Run `npm run server` to run application api.
+2. Run `npm run client` to run web for "client" version.
+3. Run `npm run server` to run application api.
 
-🔎 **Smart, Extensible Build Framework**
+## Build project
 
-## Quick Start & Documentation
+Run `ng build client` to build the "client" project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+
+## Quick Start & Documentation for Nx(@nrwl) Workspace
 
 [Nx Documentation](https://nx.dev/angular)
 
 [10-minute video showing all Nx features](https://nx.dev/angular/getting-started/what-is-nx)
 
 [Interactive Tutorial](https://nx.dev/angular/tutorial/01-create-application)
-
-## Adding capabilities to your workspace
-
-Nx supports many plugins which add capabilities for developing different types of applications and different tools.
-
-These capabilities include generating applications, libraries, etc as well as the devtools to test, and build projects as well.
-
-Below are our core plugins:
-
-- [Angular](https://angular.io)
-  - `ng add @nrwl/angular`
-- [Nest](https://nestjs.com)
-  - `ng add @nrwl/nest`
 
 There are also many [community plugins](https://nx.dev/nx-community) you could add.
 
@@ -58,7 +54,7 @@ Run `ng g @nrwl/angular:app admin` to generate an application.
 > You can use any of the plugins above to generate applications as well.
 
 
-## Generate a library
+## Generate a shared data library
 
 Run `ng g @nrwl/angular:lib my-lib` to generate a library.
 
@@ -66,17 +62,9 @@ Run `ng g @nrwl/angular:lib my-lib` to generate a library.
 
 Libraries are shareable across libraries and applications. They can be imported from `@solara-workspace/mylib`.
 
-## Development server
-
-Run `ng serve my-app` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
-
 ## Code scaffolding
 
 Run `ng g component my-component --project=my-app` to generate a new component.
-
-## Build
-
-Run `ng build my-app` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ## Running unit tests
 
