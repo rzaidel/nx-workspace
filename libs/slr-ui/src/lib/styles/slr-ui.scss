@@ -1,0 +1,18 @@
+/*
+
+This file has theme for whole project in this workspace
+
+1. client - Angular
+2. admin - second Anuglar project
+
+this file is included in every style.scss file (main angular )
+
+So here we define main color and layout theme for Solara workspace.
+
+1. define main colors
+2. define main layout
+ */
+
+
+// import bootstrap library from 'node_modules'
+@import "~bootstrap";
