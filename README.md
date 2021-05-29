@@ -20,9 +20,10 @@ Workspace has shared data. It saved in `libs` folder.
 
 Folder includes all shared data (styles, ui-elements, interfaces, model) that can be shared between 
 front-end and back-end.
- - Also, there is `slr-ui` folder that includes main styles (ui elements) for project
- - If project will need to use [Angular material](https://material.angular.io/), `theming` or `custom-theme`
- should be defined in `slr-ui` library!
+
+> **Also, there is `slr-ui` folder that includes main styles (ui elements) for project**
+> If project will need to use [Angular material](https://material.angular.io/), `theming` or `custom-theme`
+  should be defined in `slr-ui` library!
    
 ## All data that can be used in 2 front-end apps, in front-end and back-end (such an interface, or some enum, or global styles) should be stored in `libs`!
 
