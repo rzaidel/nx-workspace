@@ -19,7 +19,7 @@ async function bootstrap() {
 
 
   const configService = app.get(ConfigService);
-  const port = configService.get(EnvVariables.PORT);
+  const port = configService.get(EnvVariables.SERVER_PORT);
 
 
 

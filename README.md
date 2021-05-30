@@ -31,6 +31,7 @@ front-end and back-end.
 
 > **Also, there is `slr-ui` folder that includes main styles (ui elements) for project**
 
+Angular app should have localization for a feature. So don't forget to create localization support on project setup.
 
 > **If project will need to use [Angular material](https://material.angular.io/), `theming` or `custom-theme`
   should be defined in `slr-ui` library!**
