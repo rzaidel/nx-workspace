@@ -21,6 +21,7 @@ import { EnvVariables } from '../../../common/enums/env-variables';
         migrationsDir: "migrations"
       },
       synchronize: true,
+      logging: true
     }),
     inject: [ConfigService],
   })],
