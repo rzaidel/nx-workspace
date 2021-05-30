@@ -16,3 +16,12 @@ So here we define main color and layout theme for Solara workspace.
 
 // import bootstrap library from 'node_modules'
 @import "~bootstrap";
+
+$some-color:       #000;
+$another-color:    #000;
+
+// Export the color palette to make it accessible to JS
+:host {
+  some-color: $some-color;
+  another-color: $another-color;
+}

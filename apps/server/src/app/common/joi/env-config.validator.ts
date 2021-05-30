@@ -4,7 +4,7 @@ import { EnvVariables } from '../enums/env-variables';
 
 export const EnvValidator =  Joi.object({
   NODE_ENV: Joi.string().valid('development', 'production', 'test',).default('development'),
-  [EnvVariables.SERVER_PORT]: Joi.number(),
+  [EnvVariables.SERVER_PORT]: Joi.number().default(3000),
   [EnvVariables.DB_PORT]: Joi.number().default(3306),
   [EnvVariables.DB_HOST]: Joi.string().default('localhost'),
   [EnvVariables.DB_NAME]: Joi.string().default('solara_db'),
