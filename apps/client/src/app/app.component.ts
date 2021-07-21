@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { LocalizationService } from './core/shared/modules/internationalization/localization.service';
-import { Locales } from '@solara-workspace/locales';
+import { Locales } from '@slr-workspace/locales';
 
 
 @Component({
-  selector: 'solara-workspace-root',
+  selector: 'slr-workspace-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })

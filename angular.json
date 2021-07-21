@@ -36,7 +36,7 @@
       "projectType": "application",
       "root": "apps/client",
       "sourceRoot": "apps/client/src",
-      "prefix": "solara-workspace",
+      "prefix": "slr-workspace",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -229,7 +229,7 @@
       "projectType": "library",
       "root": "libs/slr-ui",
       "sourceRoot": "libs/slr-ui/src",
-      "prefix": "solara-workspace",
+      "prefix": "slr-workspace",
       "architect": {
         "test": {
           "builder": "@nrwl/jest:jest",

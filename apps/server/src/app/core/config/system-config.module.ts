@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { EnvValidator } from '../../common/joi/env-config.validator';
-import { Environments } from '@solara-workspace/environments';
+import { Environments } from '@slr-workspace/environments';
 
 const ENV_PATH = './apps/server/environments';
 

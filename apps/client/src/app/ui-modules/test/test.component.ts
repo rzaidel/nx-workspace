@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'solara-workspace-test',
+  selector: 'slr-workspace-test',
   templateUrl: './test.component.html',
   styleUrls: ['./test.component.scss']
 })

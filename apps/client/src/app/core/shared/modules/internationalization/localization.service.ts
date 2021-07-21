@@ -1,7 +1,7 @@
 import { Injectable, Optional, SkipSelf } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { LocalizationConfigService } from './localization-config.service';
-import { Locales } from '@solara-workspace/locales';
+import { Locales } from '@slr-workspace/locales';
 
 /**
  * Class representing the translation service.

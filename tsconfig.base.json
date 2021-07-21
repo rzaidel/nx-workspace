@@ -15,10 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@solara-workspace/environments": ["libs/environments/src/index.ts"],
-      "@solara-workspace/slr-ui": ["libs/slr-ui/src/index.ts"],
-      "@solara-workspace/util": ["libs/util/src/index.ts"],
-      "@solara-workspace/locales": ["libs/locales/src/index.ts"]
+      "@slr-workspace/environments": ["libs/environments/src/index.ts"],
+      "@slr-workspace/slr-ui": ["libs/slr-ui/src/index.ts"],
+      "@slr-workspace/util": ["libs/util/src/index.ts"],
+      "@slr-workspace/locales": ["libs/locales/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

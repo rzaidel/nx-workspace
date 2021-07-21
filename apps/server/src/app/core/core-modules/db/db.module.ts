@@ -14,6 +14,7 @@ import { EnvVariables } from '../../../common/enums/env-variables';
       password: configService.get(EnvVariables.DB_PASSWORD),
       database: configService.get(EnvVariables.DB_NAME),
       // entities: [__dirname + '/**/*.entity{.ts,.js}'],
+      // entities: [__dirname + '/**/*.entity{.ts,.js}'],
       entities: [__dirname + '/entiies/*.entity{.ts,.js}'],
       migrationsTableName: 'custom_migration_table',
       migrations: [__dirname + "/migrations/*{.ts,.js}"],

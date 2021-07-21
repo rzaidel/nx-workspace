@@ -1,4 +1,4 @@
-import { add } from '@solara-workspace/util';
+import { add } from '@slr-workspace/util';
 
 
 function test() {

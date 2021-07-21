@@ -5,7 +5,7 @@ import { InternationalizationModule } from './shared/modules/internationalizatio
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { HttpLoaderFactory } from './shared/modules/internationalization/http-loader.factory';
-import { Locales } from '@solara-workspace/locales';
+import { Locales } from '@slr-workspace/locales';
 
 
 

@@ -9,7 +9,7 @@
   "affected": {
     "defaultBase": "master"
   },
-  "npmScope": "solara-workspace",
+  "npmScope": "slr-workspace",
   "tasksRunnerOptions": {
     "default": {
       "runner": "@nrwl/nx-cloud",

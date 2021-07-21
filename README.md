@@ -1,4 +1,4 @@
-# SolaraWorkspace
+# slrWorkspace
 
 This project was generated using [Nx](https://nx.dev).
 Workspace is built with next technologies: 
@@ -14,7 +14,7 @@ Libraries used in this workspace:
  - [TypeORM](https://typeorm.io/#/) -> ORM for API
  
  
-# Setup Solara Workspace
+# Setup slr Workspace
 Download application 
 
 1. Run `npm install` to install dependencies.
@@ -104,7 +104,7 @@ Run `nx g @nrwl/workspace:lib my-lib2` to generate library.
  
 > You can also use any of the plugins above to generate libraries as well.
 
-Libraries are shareable across libraries and applications. They can be imported from `@solara-workspace/mylib`.
+Libraries are shareable across libraries and applications. They can be imported from `@slr-workspace/mylib`.
 
 
 

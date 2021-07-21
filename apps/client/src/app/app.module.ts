@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { InternationalizationModule } from './core/shared/modules/internationalization/internationalization.module';
-import { Locales } from '@solara-workspace/locales';
+import { Locales } from '@slr-workspace/locales';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { RouterModule, Routes } from '@angular/router';

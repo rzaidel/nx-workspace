@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Locales } from '@solara-workspace/locales';
+import { Locales } from '@slr-workspace/locales';
 
 /**
  * Class representing the localization config
