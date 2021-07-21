@@ -1,15 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { io, Socket } from 'socket.io-client';
-import { DefaultEventsMap } from 'socket.io-client/build/typed-events';
+import { LocalizationService } from './core/shared/modules/internationalization/localization.service';
+import { Locales } from '@solara-workspace/locales';
 
-
-// socket.on('exception', function(data) {
-//   console.log('event', data);
-// });
-// socket.on('disconnect', function() {
-//   console.log('Disconnected');
-// });
-const io1 = io('http://localhost:3000/');
 
 @Component({
   selector: 'solara-workspace-root',
@@ -18,23 +10,16 @@ const io1 = io('http://localhost:3000/');
 })
 export class AppComponent implements OnInit {
   title = 'client';
-  socket: Socket | any;
+  public readonly LOCALES = Locales;
 
-  constructor() {
+  constructor(private localeService: LocalizationService) {
+    console.log('constructor');
   }
-  ngOnInit() {
- this.socket = io1.connect();
-    console.log(this.socket);
 
-    this.socket.on('connect', function() {
-      console.log('Connected');
-      // socket.emit('events', { test: 'test' });
-      // socket.emit('identity', 0, (response: any) =>
-      //   console.log('Identity:', response),
-      // );
-    });
-    this.socket.on('events', function(data: any) {
-      console.log('event', data);
-    });
+  ngOnInit() {
+    console.log('ng on init');
+  }
+  setLang(value: Locales) {
+    this.localeService.useLanguage(value).then(console.log);
   }
 }

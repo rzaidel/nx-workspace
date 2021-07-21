@@ -1,10 +1,16 @@
 <header>
   <div class="container-fluid  d-flex">
     <div class="row">
-      <div class="col">head</div>
-      <div class="col">head</div>
+      <div class="col">{{'header.p1' | translate }}</div>
+      <div class="col" routerLink="/heroes">heroes</div>
       <div class="col">head</div>
     </div>
   </div>
 </header>
+<main>
+  <div>
+    <button (click)="setLang(LOCALES.ENGLISH)">us</button>
+    <button (click)="setLang(LOCALES.HEBREW)">en</button>
+  </div>
+</main>
 

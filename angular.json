@@ -270,6 +270,27 @@
           }
         }
       }
+    },
+    "locales": {
+      "root": "libs/locales",
+      "sourceRoot": "libs/locales/src",
+      "projectType": "library",
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/locales/**/*.ts"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/locales"],
+          "options": {
+            "jestConfig": "libs/locales/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   }
 }

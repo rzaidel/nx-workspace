@@ -17,7 +17,8 @@
     "paths": {
       "@solara-workspace/environments": ["libs/environments/src/index.ts"],
       "@solara-workspace/slr-ui": ["libs/slr-ui/src/index.ts"],
-      "@solara-workspace/util": ["libs/util/src/index.ts"]
+      "@solara-workspace/util": ["libs/util/src/index.ts"],
+      "@solara-workspace/locales": ["libs/locales/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

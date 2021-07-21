@@ -40,6 +40,9 @@
     },
     "util": {
       "tags": []
+    },
+    "locales": {
+      "tags": []
     }
   }
 }
