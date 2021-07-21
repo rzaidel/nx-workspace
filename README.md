@@ -1,4 +1,4 @@
-# slrWorkspace
+# SLR Workspace
 
 This project was generated using [Nx](https://nx.dev).
 Workspace is built with next technologies: 
