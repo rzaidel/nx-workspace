@@ -2,6 +2,7 @@
 
 This project was generated using [Nx](https://nx.dev).
 Workspace is built with next technologies: 
+Project has a beautiful configuration to DEBUG NestJS using WebStorm debugger!
 
 - [Angular v12.0](https://angular.io)
 - [NestJS v7.0](https://nestjs.com)
@@ -14,7 +15,7 @@ Libraries used in this workspace:
  - [TypeORM](https://typeorm.io/#/) -> ORM for API
  
  
-# Setup slr Workspace
+# Setup SLR Workspace
 Download application 
 
 1. Run `npm install` to install dependencies.
@@ -45,7 +46,7 @@ There is a library `@util` that contain all util functions, such as Math (add, m
 
 
 
-## API environmet
+## API environment
 For now API is used `.env` files. There is 3 different environments:
 1. `development.env` -> for local development
 2. `test.env` -> for test server (amazon, docker, digitalocean etc.)
@@ -72,7 +73,7 @@ You need to fill `node parameters` field as in a screenshot:
 
 Run `ng build client` to build the "client" project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Add new `npm` pacakge
+## Add new `npm` package
 To add new package to project (workspace) use next:
 - `npm install <package-name>`
 After it u can use package in every nested project/
